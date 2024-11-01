@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Card = () => {
   return (
@@ -16,9 +17,9 @@ const Card = () => {
           <button className="h-12 w-20 p-3 bg-green-600 text-white rounded-md hover:bg-white hover:text-green-600">
             Sign Up
           </button>
-          <button className="h-12 w-20 p-3 bg-red-600 text-white rounded-md hover:bg-white hover:text-red-600">
+          <NavLink to='/login' className="h-12 w-20 p-3 bg-red-600 text-white rounded-md hover:bg-white hover:text-red-600">
             Login
-          </button>
+          </NavLink>
         </div>
       </div>
     </div>
