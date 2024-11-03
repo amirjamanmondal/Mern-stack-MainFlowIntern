@@ -8,8 +8,7 @@ function App() {
     <div className="h-screen w-screen bg-[url('../public/bgimage.png')] bg-cover bg-center flex justify-center items-center ">
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        
       </Routes>
     </div>
   );

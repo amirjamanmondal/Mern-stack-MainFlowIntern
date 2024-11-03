@@ -33,7 +33,7 @@ const Signup = () => {
               class="material-symbols-outlined cursor-pointer"
               onClick={handleInput}
             >
-              eye_tracking
+              visibility_off
             </span>
           ) : (
             <span
