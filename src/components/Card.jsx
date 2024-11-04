@@ -12,9 +12,9 @@ const Card = () => {
           the best possible experience.
         </p>
 
-        <button className="rounded-full bg-fuchsia-500 p-2 text-white border-lime-400 border-2">
+        <NavLink to={'/signup'} className="rounded-full bg-fuchsia-500 p-2 text-white border-lime-400 border-2">
           Get Started
-        </button>
+        </NavLink>
       </div>
     </div>
   );
